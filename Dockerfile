@@ -1,0 +1,1 @@
+FROM python:3.12-slim\nRUN apt-get update && apt-get install -y ffmpeg\nWORKDIR /app\nCOPY . .\n
